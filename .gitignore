@@ -1,0 +1,38 @@
+# ── Python ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+venv/
+.env
+.venv/
+
+# ── Node / Frontend ─────────────────────────────
+node_modules/
+dashboard/node_modules/
+
+# ── CatBoost training logs ──────────────────────
+catboost_info/
+
+# ── IDE / OS ────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Archives & large binaries ───────────────────
+*.rar
+*.zip
+*.7z
+*.tar.gz
+
+# ── Logs ────────────────────────────────────────
+*.log
+npm-debug.log*
